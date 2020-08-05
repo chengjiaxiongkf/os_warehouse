@@ -1,9 +1,9 @@
 #!/bin/bash
 echo =======docker run start=======
-echo =======param 1:$1=============
-echo =======param 2:$2=============
-echo =======param 3:$3=============
-echo =======param 4:$4=============
+echo =======service :$1=============
+echo =======port :$2=============
+echo =======version :$3=============
+echo =======is -restart :$4=============
 a="";
 if [ "${4}"x = "Y"x ]
 then
